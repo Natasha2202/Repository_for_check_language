@@ -1,7 +1,7 @@
 import time #импорт будет нужен когда проверяющий разкомментирует 8 строку
 
 
-def test_get_answer(browser):
+def test_find_button(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     browser.implicitly_wait(5)
